@@ -1,0 +1,18 @@
+[project]
+name = "python-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.2.6",
+    "opencv-python>=5.0.0.93",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+python-test = "python_test:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
