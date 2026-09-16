@@ -7,3 +7,4 @@ rotated = cv2 .rotate(img, cv2 .ROTATE_90_CLOCKWISE) # 旋转90度
 edges = cv2 .Canny(gray, 100, 200)                 # 边缘检测（Canny算法）
 cv2 .imwrite('gray.jpg', gray)                     # 保存结果
 cv2 .imwrite('edges.jpg', edges)
+cv2.imwrite('rotated.jpg', rotated)
