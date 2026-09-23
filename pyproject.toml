@@ -9,6 +9,7 @@ dependencies = [
     "numpy>=2.2.6",
     "opencv-python>=5.0.0.93",
     "requests>=2.34.2",
+    "scikit-learn>=1.7.2",
 ]
 
 [project.scripts]
